@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#FAF9FF"
+                android:centerColor="#F2F0FF"
+                android:endColor="#E9E6FF" />
+        </shape>
+    </item>
+
+    <!-- Onda superior derecha -->
+    <item android:drawable="@drawable/onda_superior_bienvenida" />
+
+    <!-- Ondas inferiores -->
+    <item android:drawable="@drawable/ondas_inferiores_bienvenida" />
+
+</layer-list>

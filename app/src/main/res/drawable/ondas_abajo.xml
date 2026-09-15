@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="2400dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="2400">
+
+    <!-- Onda grande -->
+    <path
+        android:fillColor="#553F35B8"
+        android:pathData="M0,1880 C170,1740 330,1820 470,1930 C620,2050 760,2020 900,1900 C980,1830 1030,1800 1080,1780 L1080,2400 L0,2400 Z" />
+
+    <!-- Onda intermedia -->
+    <path
+        android:fillColor="#664B43D1"
+        android:pathData="M0,2050 C190,1930 340,2020 500,2120 C650,2220 790,2170 930,2050 C990,2000 1040,1970 1080,1960 L1080,2400 L0,2400 Z" />
+
+    <!-- Onda inferior -->
+    <path
+        android:fillColor="#554D5FE0"
+        android:pathData="M0,2220 C180,2100 360,2200 510,2300 C650,2390 820,2340 950,2240 C1010,2190 1050,2170 1080,2160 L1080,2400 L0,2400 Z" />
+
+</vector>

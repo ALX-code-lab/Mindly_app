@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo degradado -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#3035A6"
+                android:centerColor="#4855D2"
+                android:endColor="#6250D8" />
+        </shape>
+    </item>
+
+    <!-- Ondas -->
+    <item android:drawable="@drawable/ondas_inicio" />
+
+    <!-- Puntos decorativos -->
+    <item android:drawable="@drawable/puntos_inicio" />
+
+</layer-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="2400dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="2400">
+
+    <!-- Forma suave en la parte superior -->
+    <path
+        android:fillColor="#332F3AA8"
+        android:pathData="M0,0 L1080,0 L1080,230 C900,330 760,270 650,170 C520,50 370,20 220,80 C120,120 60,210 0,330 Z" />
+
+    <!-- Segunda forma transparente -->
+    <path
+        android:fillColor="#223F56D8"
+        android:pathData="M0,0 L700,0 C650,150 570,230 430,250 C280,270 130,220 0,400 Z" />
+
+</vector>

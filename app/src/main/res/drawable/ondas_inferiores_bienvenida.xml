@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="2400dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="2400">
+
+    <!-- Primera onda -->
+    <path
+        android:fillColor="#DDD6F5"
+        android:pathData="M0,2050 C170,1940 330,1980 490,2080 C650,2180 790,2170 930,2070 C990,2025 1040,1995 1080,1980 L1080,2400 L0,2400 Z" />
+
+    <!-- Segunda onda -->
+    <path
+        android:fillColor="#D2C9F0"
+        android:pathData="M0,2200 C170,2090 340,2140 500,2240 C650,2335 810,2310 950,2210 C1010,2165 1050,2140 1080,2130 L1080,2400 L0,2400 Z" />
+
+    <!-- Tercera onda -->
+    <path
+        android:fillColor="#C8BDEB"
+        android:pathData="M0,2310 C160,2220 330,2260 480,2340 C630,2420 790,2390 930,2310 C990,2275 1040,2250 1080,2240 L1080,2400 L0,2400 Z" />
+</vector>

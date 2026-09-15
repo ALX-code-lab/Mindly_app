@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_bienvenida">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:paddingTop="38dp"
+            android:paddingBottom="35dp">
+
+            <!-- ICONO DE MINDLY -->
+            <ImageView
+                android:id="@+id/iconoMindly"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/icono_mindly"
+                android:scaleType="fitCenter"
+                android:contentDescription="Icono de Mindly" />
+
+            <!-- SALUDO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="¡Hola! 👋"
+                android:textColor="#17245C"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <!-- BIENVENIDA -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bienvenido a "
+                    android:textColor="#17245C"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mindly"
+                    android:textColor="#7350E8"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- DESCRIPCIÓN -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Estamos aquí para apoyarte&#10;cuando lo necesites."
+                android:textColor="#7379A2"
+                android:textSize="19sp"
+                android:lineSpacingExtra="3dp" />
+
+            <!-- TARJETA -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/tarjeta_bienvenida"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- SEGURIDAD -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="🛡"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tu seguridad es importante"
+                        android:textColor="#17245C"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!-- MENSAJE -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Mindly te ayuda a contactar a las personas de confianza en momentos difíciles."
+                    android:textColor="#7379A2"
+                    android:textSize="17sp"
+                    android:lineSpacingExtra="3dp" />
+
+                <!-- INDICADORES -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@drawable/punto_activo" />
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginStart="12dp"
+                        android:background="@drawable/punto_inactivo" />
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginStart="12dp"
+                        android:background="@drawable/punto_inactivo" />
+
+                </LinearLayout>
+
+                <!-- INICIAR SESIÓN -->
+                <Button
+                    android:id="@+id/botonIniciarSesion"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/boton_morado"
+                    android:text="Iniciar sesión     ›"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <!-- CREAR CUENTA -->
+                <Button
+                    android:id="@+id/botonCrearCuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/boton_blanco"
+                    android:text="Crear cuenta     ›"
+                    android:textAllCaps="false"
+                    android:textColor="#17245C"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- PRIVACIDAD -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="🔒  Tu información está protegida y es confidencial."
+                android:textColor="#777CA5"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
