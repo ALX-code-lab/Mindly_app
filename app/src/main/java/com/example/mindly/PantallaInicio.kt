@@ -2,6 +2,7 @@ package com.example.mindly
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 
 class PantallaInicio : AppCompatActivity() {
 
@@ -15,7 +16,7 @@ class PantallaInicio : AppCompatActivity() {
 
         val botonCrearCuenta =
             findViewById<android.view.View>(R.id.botonCrearCuenta)
-
+        botonCrearCuenta.backgroundTintList = null
         botonIniciarSesion.setOnClickListener {
 
             // Más adelante abriremos la pantalla de inicio de sesión
@@ -24,7 +25,12 @@ class PantallaInicio : AppCompatActivity() {
 
         botonCrearCuenta.setOnClickListener {
 
-            // Más adelante abriremos la pantalla de registro
+            val intent = Intent(
+                this,
+                PantallaCrearCuenta::class.java
+            )
+
+            startActivity(intent)
 
         }
     }
